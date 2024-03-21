@@ -1,7 +1,9 @@
 // const factors1 = [10, 20, 30, 40, 50, 60, 70, 80, 90];
 // const factors2 = [10, 20, 30, 40, 50, 60, 70, 80, 90];
-const factors1 = Array.from({length: 90}, (_, i) => i + 10);
-const factors2 = Array.from({length: 90}, (_, i) => i + 10);
+// const factors1 = Array.from({length: 90}, (_, i) => i + 10);
+// const factors2 = Array.from({length: 90}, (_, i) => i + 10);
+const factors1 = Array.from({length: 880}, (_, i) => i + 110);
+const factors2 = Array.from({length: 880}, (_, i) => i + 110);
 
 let factor1, factor2, answer;
 let feedbackMessages = [];
